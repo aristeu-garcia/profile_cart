@@ -6,7 +6,7 @@ import { options } from "../../data/data";
 import { colourStyles } from "../../styles/Select";
 const animatedComponents = makeAnimated();
 
-export default function DropDown() {
+export default function DropDown({ onChange }) {
   return (
     <div className="content" style={{ borderBottom: " 2px solid #f0f0f0" }}>
       <Select
@@ -15,6 +15,7 @@ export default function DropDown() {
         components={animatedComponents}
         placeholder="Selecione..."
         menuColor="red"
+        onChange={onChange}
         components={{
           IndicatorSeparator: () => null,
         }}
