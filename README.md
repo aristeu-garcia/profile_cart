@@ -3,7 +3,7 @@
 ## Screenshots
 
 
-![Alt text](screenshots/print.jpeg?raw=true  "Title")
+![Alt text](./print.jpeg?raw=true  "Title")
 
 ## Description
 
